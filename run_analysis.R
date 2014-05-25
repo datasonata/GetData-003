@@ -35,6 +35,7 @@ loadData <- function(data_type) {
   x_data
 }
 
+
 ## function to get activity label factors/lables to be used in merging
 getActivityLabelFactors <- function() {
   activity_label_file <- file.path("data", "activity_labels.txt")

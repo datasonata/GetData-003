@@ -1,13 +1,12 @@
 ### Running the script
 
 - Clone the repository
-- Download the [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and extract the zip file. It should result in a `UCI HAR Dataset` folder that has all the files in the required structure.
-- Rename "UCI HAR Dataset" folder to "data" to avoid whilespace.
+- Download the [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and extract the zip file. It should result in a "UCI HAR Dataset" folder that has all the files in the required structure.
+- Rename "UCI HAR Dataset" folder to "data" as required by the script.
 - Make sure you're working in a parent folder of "data" directory
 - Run "Rscript <path to>/run_analysis.R"
 - The tidy dataset should get created in the "data" directory as "tidy_dataset.txt"
 - Code book for the tidy dataset is available [here](CodeBook.md)
-
 
 ### Assumptions
 
